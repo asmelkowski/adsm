@@ -20,8 +20,4 @@ export default {
 </script>
 
 <style>
-#app {
-  background: url("~assets/xbg.jpg") no-repeat center center;
-  /* background-size: cover; */
-}
 </style>

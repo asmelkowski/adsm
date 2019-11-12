@@ -35,17 +35,17 @@
 
         <v-list-item>
           <v-list-item-content>
-            <v-list-item-title>Link 1</v-list-item-title>
+            <nuxt-link to="/">Link 1</nuxt-link>
           </v-list-item-content>
         </v-list-item>
         <v-list-item>
           <v-list-item-content>
-            <v-list-item-title>Link 2</v-list-item-title>
+            <nuxt-link to="new1">Link 2</nuxt-link>
           </v-list-item-content>
         </v-list-item>
         <v-list-item>
           <v-list-item-content>
-            <v-list-item-title>Link 3</v-list-item-title>
+            <nuxt-link to="new2">Link 3</nuxt-link>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -63,4 +63,8 @@ export default {
 }
 </script>
 <style scoped>
+a {
+  text-decoration: none;
+  color: inherit;
+}
 </style>
